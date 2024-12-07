@@ -1,0 +1,131 @@
+@media (max-width: 576px){
+  body{
+    justify-content: center;
+  }
+  header ul{
+    display: none;
+  }
+.header-div .logo{
+  font-size: 20px;
+  padding: 0 3%;
+}
+}
+@media (min-width: 576px) and (max-width: 768px) {
+   ul li a:hover{
+    color: blue;
+  }
+  .header-div .icons{
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 576px){
+  .main-section{
+    display: block;
+  }
+  .main-section .main-section-text{
+    width: 100%;
+    padding: 10px 20%;
+    }
+    .main-section-text h2{
+      font-size: 25px;
+      }
+      .main-section-text p{
+        font-style: italic;
+        margin-top: 20px;
+      }
+      .main-section-btn{
+        font-size: 16px;
+        margin: 20px 0;
+        padding: 8px;
+        background-color: rgb(231, 59, 59);
+        border: none;
+        color: #fff;
+        border-radius: 30px;
+        transition: .4s ease;
+      }
+  .main-img{
+    border: none;
+  }
+}
+@media(min-width:576px) and (max-width:768px){
+  .main-section{
+    display: block;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main-camera{
+    margin-left: 20%;
+  }
+  .more a{
+    display: none;
+  }
+  .main-section-text{
+    margin-left: 20%;
+  }
+  .main-section-text h2{
+    font-size: 30px;
+    margin-top: -40%;
+  }
+  ul{
+    display: none;
+  }
+  
+}
+@media(max-width: 576px){
+  .site-icons{
+    display: grid;  
+    grid-template-columns: repeat(2,1fr);
+    padding: 30px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px){
+  .site-icons{
+    text-align: center;
+    display: grid;  
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+@media (max-width: 576px){
+  .product-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .more a{
+    display: none;
+  }
+}
+@media (min-width: 576px) and (max-width:768px){
+  .product-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media(min-width: 768px) and (max-width: 992px){
+  .product-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media(max-width: 576px){
+  .last-section{
+    display: block;
+  }
+  .last-img{
+    margin-left: 10%;
+  }
+  .last-section-text{
+    margin-left: 20%;
+  }
+}
+@media(min-width: 576px) and (max-width: 768px) {
+  .last-section{
+    display: block;
+  }
+  .last-img{
+    margin-left: 25%;
+  }
+  .last-section-text{
+    margin-left: 20%;
+  }
+}
