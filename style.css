@@ -12,7 +12,7 @@
   .header-div{
     display: flex;
     justify-content: space-around;
-   padding: 60px 0;
+   padding: 30px 0;
   }
   .header-div .logo{
     font-size: 30px;
@@ -75,13 +75,23 @@ font-size: 40px;
   margin-left: 10%;
   margin-top: 40px;
   border-radius: 50%;
+  background-color: #f6f6f6;
+  height: 400px;
+  width: 400px;
 }
 .populer-sites{
-  padding: 10px 10%;
+  border: 1px solid rgba(202, 194, 194, 0.534);
+  border-left: none;
+  border-right: none;
+  width: 80%;
+  margin: 0 auto;
 }
-.site-icons{
-  text-align: center;
-  gap: 20px;
+
+.online-sites .site-icons{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 6%;
 }
 .populer-sites img{
   margin-right: 40px;
@@ -92,21 +102,26 @@ font-size: 40px;
 }
 .product-container{
   display: grid;
-  /* grid-template-columns: repeat(3, 1fr); */
-  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+   /*grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(280px, auto)); 
   gap: 3rem;
-  padding: 5%;
+  padding: 10px 8%;
+
 }
 .collections{
   margin: 10px auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: relative;
+  transition: all .40s;
+  padding: 10px;
+}
+.collections:hover{
+  transform: scale(0.9);
 }
 .collection-img{
  
   width: 30%;
   text-align: center;
-}
-.pro{
-  padding: 10px 4%;
 }
 h3{
   text-align: center;
@@ -115,7 +130,16 @@ h3{
   padding: 30px 0 0 0;
 }
 .ratting{
-  color: rgb(204, 204, 16);
+  color: #ff00ff;
+}
+.collections .info{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: rgba(61, 54, 54, 0.91);
+}
+.collections .rate{
+  color: #241d1d;
+  margin-left: 10px;
 }
 .more{
   margin-left: 90%;
@@ -149,6 +173,9 @@ h3{
   margin: 20px 0;
   border-radius: 8px;
 }
+.last-section-text .last-btn:hover{
+background-color: blue;
+}
 .footer-sec{
   text-align: center;
   color: #fff;
@@ -161,4 +188,11 @@ footer{
 .footer-icons{
   margin-top: 10px;
   margin-right: 20px;
+}
+.footer-icons i{
+font-size: 25px;
+}
+.footer-icons i:hover{
+  color: blue;
+  transition: all .42s;
 }
