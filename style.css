@@ -23,6 +23,10 @@
     font-size: 20px;
     transition: all .42s;
   }
+  #navbar li{
+    margin-right: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
   ul li a {
    margin-left: 20px;
    color: black;
@@ -40,6 +44,9 @@
   }
   .icons a:hover{
     color: blue;
+  }
+  #bar{
+    display: none;
   }
   .main-section{
     display: flex;
@@ -83,15 +90,18 @@ font-size: 40px;
   border: 1px solid rgba(202, 194, 194, 0.534);
   border-left: none;
   border-right: none;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
 .online-sites .site-icons{
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  padding: 30px 6%;
+}
+.site-icons a{
+  padding: 30px 20px;
 }
 .populer-sites img{
   margin-right: 40px;
